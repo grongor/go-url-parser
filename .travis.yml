@@ -1,0 +1,16 @@
+dist: xenial
+language: go
+
+go:
+    - "1.13"
+    - master
+
+env: GO111MODULE=on
+
+jobs:
+    allow_failures:
+        -   go: master
+
+script:
+    - make
+    - make check
