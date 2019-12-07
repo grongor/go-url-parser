@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	urlparser "github.com/grongor/go-url-parser/url-parser"
+	"github.com/grongor/go-url-parser"
 )
 
 func usage() {

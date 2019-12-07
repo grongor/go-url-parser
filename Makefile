@@ -38,7 +38,6 @@ tools: bin
 
 bin: export GOBIN = $(BIN)
 bin:
-	go install github.com/golang/mock/mockgen
 	go install golang.org/x/lint/golint
 	go install golang.org/x/tools/cmd/goimports
 	go install honnef.co/go/tools/cmd/staticcheck
