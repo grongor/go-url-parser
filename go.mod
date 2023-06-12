@@ -3,7 +3,7 @@ module github.com/grongor/go-url-parser
 go 1.19
 
 require (
-	github.com/stretchr/testify v1.8.1
+	github.com/stretchr/testify v1.8.4
 	golang.org/x/net v0.7.0
 )
 
